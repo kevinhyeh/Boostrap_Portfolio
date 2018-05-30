@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	background-image: url('assets/images/bg_pic2.jpg');
+	background-image: url('images/bg_pic2.jpg');
 	background-position: cover;
 }
 
@@ -29,6 +29,29 @@ body {
 	color: #fff;
 	font-family: none;
 	font-size: 30px!important;
+}
+
+.active {
+	color: #4aaaa5!important;
+}
+
+.nav-item {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 20px;
+}
+
+.nav-item:hover {
+	background-color: #4aaaa5;
+}
+
+.nav-link:hover {
+	color: #fff!important;
+}
+
+.tagbreak {
+	height: 30px;
+	width: 2px;
+	background-color: #ddd;
 }
 
 /*main body*/
@@ -58,10 +81,28 @@ h2 {
 .break {
 	height: 2px;
 	background-color: #ddd;
-	width: 100;
+	width: 100%;
 	margin-bottom: 15px;	
 }
 
+/*portfolio main body*/
+.banner {
+	width: 200px;
+	height: 40px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 20px;
+	z-index: 1;
+	position: absolute;
+}
+
+.portimage {
+	width: 200px;
+	z-index: -1;
+	position: absolute;
+}
 /*footer*/
 
 .footer {

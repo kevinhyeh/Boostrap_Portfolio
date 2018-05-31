@@ -3,100 +3,85 @@
 
 <head>
     <title>Bootstrap Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS link -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
-    <!-- Bootstrap CSS file -->
-    <link rel="stylesheet" href="assets/bootstrap.min.css">
-    <!-- External CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-            <div class="container hmargin">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     <div id="headername">Kevin Yeh</div>
                 </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li>
-                        <div class="tagbreak">
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <div class="tagbreak">
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li>
+                            <div class="tagbreak mt-2 mx-1">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <div class="tagbreak mt-2 mx-1">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
         </nav>
     </header>
     <section>
-        <div class="container white">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h2>About Me</h2>
+        <div class="container box mt-5 col-lg-7 col-10">
+            <h2>About Me</h2>
+            <div class="break"></div>
+            <div class="">
+                <div class="row">
+                    <div class="col-lg-5 col-md-10 col-sm-12 mr-4">
+                        <div id="tgllogo" class="picture">
+                            <p class="portfolioname">Graphic Design Freelance</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-10 col-sm-12 ml-0">
+                        <div id="javascript" class="picture">
+                            <p class="portfolioname">Javascript</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-lg-5 col-md-10 col-sm-12 mr-4">
+                        <div id="htmlcss" class="picture">
+                            <p class="portfolioname">HTML & CSS</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-10 col-sm-12 ml-0">
+                        <div id="photoshop" class="picture">
+                            <p class="portfolioname">Photoshop</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="break"></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 hello">
-                    <div class="banner">Graphic Design Freelance</div>
-                    <img src="assets/images/tgjlogo.jpg" width="250px">
-                </div>
-                <div class="col-sm-3 hello">
-                    <div class="banner">Javascript</div>
-                    <img src="assets/images/javascript.png" width="250px">
-                </div>
-                <div class="col-sm-3 hello">
-                    <div class="banner">HTML & CSS</div>
-                    <img src="assets/images/htmlcss.jpg" width="250px">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 hello">
-                    <div class="banner">Photoshop</div>
-                    <img src="assets/images/photoshop.jpg" width="250px">
-                </div>
-                <div class="col-sm-3 hello">
-                    <div class="banner">Photography</div>
-                    <img src="assets/images/photography.jpg" width="250px">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 hello">
-                    <div class="banner">Photoshop</div>
-                    <img src="assets/images/photoshop.jpg" width="250px">
-                </div>
-                <div class="col-sm-3 hello">
-                    <div class="banner">Photography</div>
-                    <img src="assets/images/photography.jpg" width="250px">
+                <div class="row">
+                    <div class="col-lg-5 col-md-10 col-sm-12 mr-4">
+                        <div id="photography" class="picture">
+                            <p class="portfolioname">Photography</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer">
-            <p>Copyright ©</p>
-        </div>
+        Copyright ©
     </footer>
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 
 </html>

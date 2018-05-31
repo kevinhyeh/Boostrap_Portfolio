@@ -7,7 +7,8 @@ html {
 
 body {
 	background-image: url('images/bg_pic2.jpg');
-	background-position: cover;
+	background-position: fixed;
+
 }
 
 /*nav bar*/
@@ -55,6 +56,11 @@ body {
 }
 
 /*main body*/
+.intro:first-letter {
+	font-family: none;
+	font-size: 26px;
+	color: #4aaaa5;
+}
 
 .container {
 	padding: 0!important;
@@ -71,10 +77,11 @@ h2 {
 	background-color: #fff;
 	margin-bottom: 100px!important;
 	padding: 20px!important;
+	margin-left: 10%;
 }
 
 .profile {
-	width: 200px;
+	width: 300px;
 	margin-right: 20px;
 }
 
@@ -86,23 +93,45 @@ h2 {
 }
 
 /*portfolio main body*/
-.banner {
-	width: 200px;
-	height: 40px;
-	background-color: #4aaaa5;
-	text-align: center;
-	color: #fff;
-	font-size: 16px;
-	padding-top: 20px;
-	z-index: 1;
-	position: absolute;
+#tgllogo {
+    background-image: url("images/tgjlogo.jpg");
 }
 
-.portimage {
-	width: 200px;
-	z-index: -1;
-	position: absolute;
+#javascript {
+    background-image: url("images/javascript.png");
 }
+
+#htmlcss {
+    background-image: url("images/htmlcss.jpg");
+}
+
+#photoshop {
+    background-image: url("images/photoshop.jpg");
+}
+
+#photography {
+    background-image: url("images/photography.jpg");
+}
+
+.portfolioname {
+	height: 30px;
+	width: 250px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	position: absolute;
+	margin-top: 140px;
+	font-family: none;
+}
+
+.picture {
+    width: 250px;
+    height: 215px;
+    background-size: cover;
+    margin: 10px;
+}
+
 /*footer*/
 
 .footer {

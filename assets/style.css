@@ -16,8 +16,11 @@ body {
 	background-color: #fff!important;
 	border-bottom: solid 2px #ddd;
 	padding: 0!important;
-	height: 70px!important;
 
+}
+
+.navbar-brand {
+	padding: 0!important;
 }
 
 #headername {
@@ -121,8 +124,8 @@ h2 {
 	color: #ffffff;
 	font-size: 20px;
 	position: absolute;
-	margin-top: 140px;
 	font-family: none;
+	margin: 140px 25px;
 }
 
 .picture {
@@ -130,6 +133,12 @@ h2 {
     height: 215px;
     background-size: cover;
     margin: 10px;
+}
+
+.btn-primary {
+	background-color: #4aaaa5!important;
+	border-radius: 0!important;
+	border: none!important;
 }
 
 /*footer*/
@@ -145,4 +154,11 @@ h2 {
 	color: #ddd;
 	position: absolute;
 	bottom: 0;
+}
+
+@media screen and (max-width: 990px) {
+	.tagbreak {
+		width: 0;
+		height: 0;
+	}
 }

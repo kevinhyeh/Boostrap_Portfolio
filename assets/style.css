@@ -100,6 +100,10 @@ h2 {
     background-image: url("images/tgjlogo.jpg");
 }
 
+#guessinggame {
+    background-image: url("images/flag_collage2.jpg");
+}
+
 #javascript {
     background-image: url("images/javascript.png");
 }
@@ -114,6 +118,14 @@ h2 {
 
 #photography {
     background-image: url("images/photography.jpg");
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: black;
 }
 
 .portfolioname {
